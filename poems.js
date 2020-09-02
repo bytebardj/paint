@@ -1,12 +1,6 @@
-<!DOCTYPE javascript>
-<style type="text/css">
-body { font: 14px/1.3 verdana, arial, helvetica, sans-serif; }
-h1 { font-size:1.3em; }
-h2 { font-size:1.2em; }
-</style>
 var poems = [
-'���鳺����<br>������<br>�Բ�������<br>����������<br>���Ҵ�б��<br>��ɽ����Զ��<br>(б�� һ����Ϧ��)<br>',
-'456<br>'
+'送灵澈上人<br>刘长卿<br><br>苍苍竹林寺<br>杳杳钟声晚<br>荷笠带斜阳<br>青山独归远<br>(斜阳 一作：夕阳)<br><br>',
+'锦瑟<br>李商隐<br><br>锦瑟无端五十弦<br>一弦一柱思华年<br>庄生晓梦迷蝴蝶<br>望帝春心托杜鹃<br>沧海月明珠有泪<br>蓝田日暖玉生烟<br>此情可待成追忆<br>只是当时已惘然<br><br>'
 ]
 
 function newpoem(){

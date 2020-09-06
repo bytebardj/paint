@@ -3,3 +3,4 @@ h1 { font-size:1.3em; }
 h2 { font-size:1.2em; }
 .div{width: 300px;}
 .div1 {word-break: normal;}
+canvas { border: 5px solid black; }

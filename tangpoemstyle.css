@@ -1,6 +1,6 @@
 body { font: 24px verdana, arial, helvetica, sans-serif; }
 h1 { font-size:1.3em; }
 h2 { font-size:1.2em; }
-.div{width: 300px; font-size: 48;}
+.div{width: 300px; font-size: 48px;}
 .div1 {word-break: normal;}
 canvas { border: 5px solid black; }

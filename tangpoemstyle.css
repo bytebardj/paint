@@ -1,4 +1,4 @@
-body { font: 24px verdana, arial, helvetica, sans-serif; background-color: #f0f0f0; }
+body { font: 24px verdana, arial, helvetica, sans-serif; background-color: rgba(153, 255, 153, 0.3); }
 h1 { font-size:1.3em; }
 h2 { font-size:1.2em; }
 .div{width: 300px;}

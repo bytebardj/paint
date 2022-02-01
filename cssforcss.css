@@ -78,13 +78,13 @@ body {
 .d1 {background: blue; grid-area: adv2; }
 .d2 {background: lightgreen; grid-area: header;}
 .d3 {background: lightyellow;grid-area: content;}
-.d4 {background: pink; grid-area: adv3;}
+.d4 {grid-area: adv3;}
 .d5 {background: purple; grid-area: adv;}
-.d6 {background: yellow;grid-area: footer;}
+.d6 {;grid-area: footer;}
 
 .container {
     width: 100%;
-    background: gray;
+    /* background: gray; */
     display:grid;
     /* grid-column-gap: 10px;
     grid-row-gap: 10px; */
@@ -98,13 +98,20 @@ body {
     "adv"
     "adv3"
     "footer";
+    --mask2: 
+  linear-gradient(#000 0 0) top/100% calc(100% - 20px) no-repeat,
+  radial-gradient(circle 10px at 75% 100%,#0000 98%,#000) 50% calc(100% - 10px)/40px 10px repeat-x,
+  radial-gradient(circle closest-side at 25% 50%,#000 99%,#0000 101%) bottom/40px 20px repeat-x;
+  -webkit-mask2: var(--mask2);
+    mask2: var(--mask2);
+        background: var(--mask2);
 }
 
 @media (min-width:600px) {
     .container {
         width: 100%;
-        background: gray;
-        display:grid;
+    /* background: gray; */
+    display:grid;
         /* grid-column-gap: 10px;
         grid-row-gap: 10px; */
         grid-gap: 00px;
@@ -114,6 +121,14 @@ body {
         "adv2 header"
         "adv content"
         "adv3 footer";
+        --mask2: 
+        linear-gradient(#000 0 0) top/100% calc(100% - 20px) no-repeat,
+        radial-gradient(circle 10px at 75% 100%,#0000 98%,#000) 50% calc(100% - 10px)/40px 10px repeat-x,
+        radial-gradient(circle closest-side at 25% 50%,#000 99%,#0000 101%) bottom/40px 20px repeat-x;
+        -webkit-mask2: var(--mask2);
+          mask2: var(--mask2);
+              background: var(--mask2);
+
     }
 }
 @media (min-width:800px) {
@@ -130,12 +145,25 @@ body {
         "header adv2"
         "content adv"
         "footer adv3";
+        --mask2: 
+        linear-gradient(#000 0 0) top/100% calc(100% - 20px) no-repeat,
+        radial-gradient(circle 10px at 75% 100%,#0000 98%,#000) 50% calc(100% - 10px)/40px 10px repeat-x,
+        radial-gradient(circle closest-side at 25% 50%,#000 99%,#0000 101%) bottom/40px 20px repeat-x;
+        -webkit-mask2: var(--mask2);
+          mask2: var(--mask2);
+              background: var(--mask2);
     }
 }
 #box1 {
     height: 5em;
     display: flex;
     margin: -15px;
+    --mask: 
+    linear-gradient(#000 0 0) bottom/100% calc(100% - 20px) no-repeat,
+    radial-gradient(circle 10px at 75% 0%,#0000 98%,#000) 50% 10px/40px 10px repeat-x,
+    radial-gradient(circle closest-side at 25% 50%,#000 99%,#0000 101%) top/40px 20px repeat-x;
+  -webkit-mask: var(--mask);
+          mask: var(--mask);
 }
 
 #box2 {
@@ -144,6 +172,7 @@ body {
     height: 50%;
     /* flex-shrink: 1; */
     align-self: stretch;
+    background: var(--mask);
 }
 #box3 {
     background-color: royalblue;
@@ -151,6 +180,7 @@ body {
     height: 50%;
     align-self: stretch;
     /* flex-shrink: 2; */
+    background: var(--mask);
 }
 #box6 {
     display: flex;

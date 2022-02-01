@@ -6,6 +6,16 @@
     ;
 }
 
+@media screen and (max-width:425px){
+    .div1 {
+    grid-template-areas: 
+    "images"
+    "button"
+    "info"
+    ;
+}
+}
+
 .div2 {
     grid-area: images;
     width: fit-content;

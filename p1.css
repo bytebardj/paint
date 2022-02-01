@@ -1,17 +1,25 @@
+P {
+    font-family: monospace;
+    font-size: 16px;
+}
 .div1 {
     display: grid;
+    grid-template: auto / auto;
     grid-template-areas: 
     "images button"
     "images info"
+    "footer footer"
     ;
 }
 
-@media screen and (max-width:425px){
+@media screen and (max-width:50em){
     .div1 {
-    grid-template-areas: 
-    "images"
-    "button"
-    "info"
+        grid-template: auto / auto;
+        grid-template-areas: 
+        "images"
+        "button"
+        "info"
+        "footer"
     ;
 }
 }
@@ -21,17 +29,30 @@
     width: fit-content;
     height: fit-content;
     margin: 5px;
+    justify-self: center;
+
 }
 
 .div3 {
     grid-area: info;
     margin: 0px;
+    justify-self: center;
+
 }
 
 .div4 {
     grid-area: button;
     margin: 0px;
     align-self: flex-end;
+    justify-self: center;
+}
+
+.div5 {
+    grid-area:footer;
+    margin: 0px;
+    background-color: lightgray;
+    justify-self: center;
+
 }
 
 .button {
@@ -44,3 +65,4 @@
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+}

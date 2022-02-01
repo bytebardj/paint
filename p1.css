@@ -1,0 +1,36 @@
+.div1 {
+    display: grid;
+    grid-template-areas: 
+    "images button"
+    "images info"
+    ;
+}
+
+.div2 {
+    grid-area: images;
+    width: fit-content;
+    height: fit-content;
+    margin: 5px;
+}
+
+.div3 {
+    grid-area: info;
+    margin: 0px;
+}
+
+.div4 {
+    grid-area: button;
+    margin: 0px;
+    align-self: flex-end;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;

@@ -2,10 +2,6 @@ body {
     background-color: black;
     font-family: 'Economica', sans-serif;
     color: blanchedalmond;
-    
-
-
-
 }
 :root {
 
@@ -14,7 +10,7 @@ body {
 .container {
     display: grid;
     grid-gap: 10px;
-    grid-template-columns: 200px repeat(13, auto);
+    grid-template-columns: 200px repeat(16, auto);
 }
 
 .item {
@@ -22,7 +18,7 @@ body {
     height: 600px;
 }
 
-@media (min-width: 200px;) {
+@media (min-width: 200px) {
     .item
     border-radius: 10px;
     height: 200px;

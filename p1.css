@@ -5,7 +5,7 @@ P {
 }
 .div1 {
     display: grid;
-    grid-template: auto / auto;
+    grid-template:  auto / auto;
     grid-template-areas: 
     "images button"
     "images info"

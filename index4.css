@@ -1,6 +1,9 @@
 body {
     background-color: black;
     font-family: 'Economica', sans-serif;
+    color: blanchedalmond;
+
+
 }
 :root {
 
@@ -25,6 +28,5 @@ body {
 
 .item2 {
     text-align: right;   
-    color: blanchedalmond;
-
+    a: visited {ßcolor:blanchedalmond};
 }

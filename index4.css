@@ -12,5 +12,12 @@ body {
 }
 
 .item {
+    border-radius: 10px;
     height: 600px;
+}
+
+@media (min-width: 200px;) {
+    .item
+    border-radius: 10px;
+    height: 200px;
 }

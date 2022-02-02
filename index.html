@@ -1,46 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8" />
-<title>Paint, just paint</title>
-<script type="text/javascript">
-// place your images in this array
-var random_images_array = ['9.jpg', '10.jpg' , '11.jpg' , '12.jpg' , '15.jpg' , '18.jpg' , '20.jpg', '21.jpg', '22.jpg', '23.jpg', 'Arthur_Streeton_-_Golden_summer,_Eaglemont_-_Google_Art_Project.jpg' , '602539sl.jpeg' , 'john-atkinson-grimshaw-liverpool-lights.jpeg'];
-
-function getRandomImage(imgAr, path) {
-    path = path || 'images/'; // default path here
-    var num = Math.floor( Math.random() * imgAr.length );
-    var img = imgAr[ num ];
-    var imgStr = '<img src="' + path + img + '" alt = "" height="75%" width="75%">';
-    document.write(imgStr); document.close();
-}
-
-</script>
-<link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paintings Surfing</title>
+    <link rel="stylesheet" href="index4.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-<link href="https://fonts.googleapis.com/css2?family=Quintessential&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="p1.css">
+<link href="https://fonts.googleapis.com/css2?family=Economica&display=swap" rel="stylesheet">
+<style>a:link , a:visited {color: blanchedalmond};</style>
 </head>
 <body>
-    <div class="div1">
-<div class="div2">
-    <!-- This script segment displays an image from the array -->
-    <script type="text/javascript">getRandomImage(random_images_array, 'images/')</script>
-</div>
-
-<!-- or to have image linked: -->
-<!--<a href="."><script type="text/javascript">getRandomImage(random_images_array)</script></a>-->
-<div class="div4"><h1><button type="button" class="button"><a href="">Reload current page</a></button></h1></div>
-<div class="div3"><h4><p>For exploring the paint infomation, please click the right button of your optical mouse on your PC or Mac and click "Search Google For Image", then you will find a new world in your browser.(Cannot find it? Oh,no, I could help you in the future but I don't want to do it now)</p>
-<p>Question 1: How many paints here currently?</p>
-<p>Answer: 13 (updated date: 1/Feb/2022)</p>
-<p>Question 2: What is the purpose of this website?</p>
-<p>Answer: to show the real piece of work of our ancestor, to calm you down, to find inner peace</p><p>Another reason is that I will totally forget it if I just leave all the paints in my computer</p>
-<p>Question 3: Any tip?</p>
-<p>Answer: You can zoom in or zoom out on your phone</p><a href="https://artvee.com/artist/john-atkinson-grimshaw/">ARTVEE</a>
-<div class="div5"><p>Website Version 1.01 | Since 1/Sept/2020</p></div>
-</div>
-</div>
-</div>
+    <div class="container">
+        <div class="item2">Question 1: How many paints here?<br>
+            Answer: 13 (updated date: 2/Feb/2022)<br><br>
+            Question 2: What is the purpose of this website?<br>
+            Answer: to show the real piece of work of our ancestor, to calm you down, to find inner peace<br>
+            Another reason is that I will totally forget it if I just leave all the paints in my computer<br><br>
+            Question 3: Any tip?<br>
+            Answer: You can zoom in or zoom out on your phone<br><br>
+            Website Version 1.02 | Since 1/Sept/2020</div>
+        <div><a href="images/9.jpg"><img class="item" src="images/9.jpg"></a><figcaption></figcaption></div>
+        <div><a href="images/10.jpg"><img class="item" src="images/10.jpg"></a><figcaption></figcaption></div>
+        <div><a href="images/11.jpg"><img class="item" src="images/11.jpg"></a><figcaption></figcaption></div>
+        <div><a href="images/12.jpg"><img class="item" src="images/12.jpg"></a><figcaption></figcaption></div>
+        <div><a href="images/15.jpg"><img class="item" src="images/15.jpg"></a><figcaption></figcaption></div>
+        <div><a href="images/18.jpg"><img class="item" src="images/18.jpg"></a><figcaption></figcaption></div>
+        <div><a href="images/20.jpg"><img class="item" src="images/20.jpg"></a><figcaption></figcaption></div>
+        <div><a href="images/21.jpg"><img class="item" src="images/21.jpg"></a><figcaption></figcaption></div>
+        <div><a href="images/22.jpg"><img class="item" src="images/22.jpg"></a><figcaption></figcaption></div>
+        <div><a href="images/23.jpg"><img class="item" src="images/23.jpg"></a><figcaption></figcaption></div>
+        <div><a href="images/Arthur_Streeton_-_Golden_summer,_Eaglemont_-_Google_Art_Project.jpg"><img class="item" src="images/Arthur_Streeton_-_Golden_summer,_Eaglemont_-_Google_Art_Project.jpg"></a><figcaption><a href="https://www.google.com/search?q=Arthur+Streeton&client=safari&rls=en&sxsrf=APq-WBsudaCwG0JKeQ-LXe_yWwdZEM0BEA%3A1643796921136&ei=uVn6Yd_VB5ma4-EP3r6GKA&ved=0ahUKEwiflsTc5OD1AhUZzTgGHV6fAQUQ4dUDCA0&uact=5&oq=Arthur+Streeton&gs_lcp=Cgdnd3Mtd2l6EAMyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUILhCABDIFCAAQgAQyBQgAEIAEOgcIABBHELADOgYIABAHEB5KBAhBGABKBAhGGABQjwtYgg1g4g5oAXACeACAAdQBiAGDA5IBBTAuMS4xmAEAoAEByAEIwAEB&sclient=gws-wiz">Arthur Streeton - Golden Summer, Eaglemont - 1889</a></figcaption></div>
+        <div><a href="images/602539sl.jpeg"><img class="item" src="images/602539sl.jpeg"></a><figcaption><a href="https://artvee.com/artist/arnoldus-bloemers/https://artvee.com/artist/arnoldus-bloemers/">Arnoldus Bloemers</a></figcaption></div>
+        <div><a href="images/john-atkinson-grimshaw-liverpool-lights.jpeg"><img class="item" src="images/john-atkinson-grimshaw-liverpool-lights.jpeg"></a><figcaption><a href="https://artvee.com/artist/john-atkinson-grimshaw/">Atkinson Grimshaw - Liverpool Lights - 1887</a></figcaption></div>
+    </div>
+    
 </body>
 </html>

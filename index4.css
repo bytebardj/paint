@@ -3,27 +3,39 @@ body {
     font-family: 'Economica', sans-serif;
     color: blanchedalmond;
 }
-:root {
-
-}
 
 .container {
     display: grid;
     grid-gap: 10px;
     grid-template-columns: 200px repeat(16, auto);
+    padding: 20 20 20 20;
 }
 
 .item {
-    border-radius: 10px;
+    border-radius: 1px;
     height: 600px;
+    border-style:ridge;
+    border-color: #974;
+    border-width: 26px;
 }
 
-@media (min-width: 200px) {
-    .item
-    border-radius: 10px;
-    height: 200px;
+.item0 {
+    border-radius: 1px;
+    height: 600px;
+    border-top-style: outset;
+    border-bottom-style: outset;
+    border-bottom: outset;
+    border-color: #333;
+    border-width: 45px;}
+    
+
+.item1 {
+    border-radius: 1px;
+    height: 600px;
+    border-style:double; 
+    border-width: 9px;
 }
 
-.item2 {
+.itemleft {
     text-align: right;   
 }

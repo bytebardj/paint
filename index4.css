@@ -23,8 +23,7 @@ body {
     border-radius: 1px;
     height: 600px;
     border-top-style: outset;
-    border-bottom-style: outset;
-    border-bottom: outset;
+    border-bottom-style: inset;
     border-color: #333;
     border-width: 45px;}
     

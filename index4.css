@@ -9,6 +9,7 @@ body {
     grid-gap: 10px;
     grid-template-columns: 200px repeat(17, auto);
     padding: 20 20 20 20;
+    
 }
 
 .item {

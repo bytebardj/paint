@@ -14,7 +14,7 @@ body {
 
 .item {
     border-radius: 1px;
-    height: 600px;
+    height: 80vh;
     border-style:ridge;
     border-color: #974;
     border-width: 26px;
@@ -22,7 +22,7 @@ body {
 
 .item0 {
     border-radius: 1px;
-    height: 600px;
+    height:80vh;
     border-top-style: outset;
     border-bottom-style: inset;
     border-color: #333;
@@ -31,11 +31,15 @@ body {
 
 .item1 {
     border-radius: 1px;
-    height: 600px;
+    height: 80vh;
     border-style:double; 
     border-width: 9px;
 }
 
 .itemleft {
     text-align: right;   
+}
+
+.normal {
+    grid-column:span;
 }

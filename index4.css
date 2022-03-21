@@ -41,5 +41,10 @@ body {
 }
 
 .normal {
-    grid-column:span;
+    border-radius: 1px;
+    height:80vh;
+    border-top-style: outset;
+    border-bottom-style: inset;
+    border-color: #333;
+    border-width: 45px;
 }

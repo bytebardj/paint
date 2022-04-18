@@ -9,6 +9,7 @@ body {
     grid-gap: 10px;
     grid-template-columns: 200px repeat(19, auto);
     padding: 20 20 20 20;
+    /* position: relative; */
     
 }
 
@@ -37,7 +38,8 @@ body {
 }
 
 .itemleft {
-    text-align: right;   
+    text-align: right;
+    left:50em;
 }
 
 .normal {
@@ -47,4 +49,11 @@ body {
     border-bottom-style: inset;
     border-color: #333;
     border-width: 45px;
+    /* position: relative; */
+}
+
+.keepleft {
+    position:fixed;
+    left: 0;
+    
 }

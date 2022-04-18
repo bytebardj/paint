@@ -1,0 +1,163 @@
+body {
+    background-color: black;
+    font-family: 'Economica', sans-serif;
+    color: blanchedalmond;
+}
+
+.container {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 200px repeat(23, auto);
+    padding: 20 20 20 20;
+    /* position: relative; */
+    
+}
+
+.item {
+    border-radius: 1px;
+    height: 80vh;
+    border-style:ridge;
+    border-color: #974;
+    border-width: 26px;
+}
+
+.item0 {
+    border-radius: 1px;
+    height:80vh;
+    border-top-style: outset;
+    border-bottom-style: inset;
+    border-color: #333;
+    border-width: 45px;}
+    
+
+.item1 {
+    border-radius: 1px;
+    height: 80vh;
+    border-style:double; 
+    border-width: 9px;
+}
+
+.itemleft {
+    text-align: right;
+    font-size: smaller;
+}
+
+.itemspace {
+    margin: 0 25px 0 25px;
+    
+}
+
+.itemspaceend {
+    margin-right: 50em;
+}
+
+.normal {
+    border-radius: 1px;
+    height:80vh;
+    /* border-top-style: outset; */
+    border-bottom-style: inset;
+    border-color: #333;
+    border-width: 45px;
+    /* position: relative; */
+    margin-right: 50em;
+}
+
+
+
+.floorbutton {
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  margin: 5px 5px 5px 5px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.floorbutton:after {
+  content: "";
+  background-color: #ffe54c;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.floorbutton:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+@media (min-width: 768px) {
+  .floorbutton {
+    padding: 13px 50px 13px;
+  }
+}
+
+
+.logobutton {
+  background-color: #3DD1E7;
+  border: 0 solid #E5E7EB;
+  box-sizing: border-box;
+  color: #000000;
+  display: flex;
+  font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 700;
+  justify-content: center;
+  line-height: 1.75rem;
+  padding: .75rem 1.65rem;
+  position: relative;
+  text-align: center;
+  text-decoration: none #000000 solid;
+  text-decoration-thickness: auto;
+  width: 100%;
+  max-width: 460px;
+  position: relative;
+  cursor: pointer;
+  transform: rotate(-2deg);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+
+.logobutton:focus {
+  outline: 0;
+}
+
+.logobutton:after {
+  content: '';
+  position: absolute;
+  border: 1px solid #000000;
+  bottom: 4px;
+  left: 4px;
+  width: calc(100% - 1px);
+  height: calc(100% - 1px);
+}
+
+.logobutton:hover:after {
+  bottom: 2px;
+  left: 2px;
+}
+
+@media (min-width: 768px) {
+  .logobutton {
+    padding: .75rem 3rem;
+    font-size: 1.25rem;
+  }
+}
+
+.specicalfontcolor {
+    color: #000000;
+
+}

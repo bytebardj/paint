@@ -7,5 +7,7 @@
 			"path": "../../read/read"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "paint.github.io"
+	}
 }

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">`
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Joe Hunt Online Painting Gallery</title>
@@ -25,6 +25,7 @@
             Q: Any tip?<br>
             A: You can zoom in or zoom out on your phone<br><br>
             Website Version 1.02 | Since 1/Sept/2020.<br><br>
+            <p><a href="index-pc.html">PC reading version</a></p>
         </div>
         <div class="itemspace"></div>
         <div class="normal" id="thefirstone"><a href="images/9.jpg"><img class="item0" src="images/9.jpg"></a><figcaption></figcaption></div>
@@ -48,13 +49,6 @@
         <div class="itemspace">End of the the exhibition.<button class="floorbutton"><a href="#thecenterone" style="color: black;" >Back to the CENTER</button><button class="floorbutton"><a href="#thefirstone" style="color: black;" >Back to the BEGINNING.</button></div>
     </div>
     </main>
-    <script>
-        const scrollContainer = document.querySelector("main");
-        scrollContainer.addEventListener("wheel", (evt) => {
-            evt.preventDefault();
-            scrollContainer.scrollLeft += evt.deltaY;
-        });
-    </script>
 </body>
 
 </html>

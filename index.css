@@ -6,7 +6,6 @@ body {
 
 }
 
-}
 
 .container {
     display: grid;
@@ -14,7 +13,6 @@ body {
     grid-template-columns: 300px repeat(29, auto);
     padding: 20 20 20 20;
     /* position: relative; */
-    margin:0;
     
 }
 
